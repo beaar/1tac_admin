@@ -18,13 +18,6 @@ class CfgPatches
 
 class CfgFunctions
 {
-    class A3 {
-        class Debug {
-            class isDebugConsoleAllowed {
-                file = "\1tac_admin\func\fn_isDebugConsoleAllowed.sqf";
-            };
-        };
-    };
 	class tac1_admin
 	{
 		class adminMenu

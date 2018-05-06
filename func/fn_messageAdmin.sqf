@@ -5,8 +5,6 @@ if (isServer) then {
 
 if (!hasInterface) exitWith {};
 
-private _localID = [] call tac1_admin_local_uid;
-
-if (isServer or (_localID in ([] call tac1_adminIDs)) or (serverCommandAvailable "#kick")) then {
+if (call BIS_fnc_isDebugConsoleAllowed) then {
 	systemChat _this;
 };
